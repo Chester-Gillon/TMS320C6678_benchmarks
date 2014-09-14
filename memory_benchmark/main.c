@@ -42,7 +42,7 @@ Int main (void)
     Types_FreqHz timer_freq;
     Types_Timestamp64 start_times[NUM_BUFFER_SIZES], stop_times[NUM_BUFFER_SIZES];
     int buffer_size_index;
-    double total_mbytes, test_duration;
+    double total_mbytes, test_duration, total_duration;
     uint64_t start_time, stop_time;
     size_t buffer_size;
 
@@ -51,12 +51,14 @@ Int main (void)
 
     buffer = malloc (MAX_BUFFER_SIZE);
 
+    printf ("Starting memory write test\n");
     for (buffer_size_index = 0; buffer_size_index < NUM_BUFFER_SIZES; buffer_size_index++)
     {
         time_buffer_write (buffer, 1 << (buffer_size_index + MIN_LOG2N_BUFFER_SIZE),
                            &start_times[buffer_size_index], &stop_times[buffer_size_index]);
     }
 
+    total_duration = 0.0;
     for (buffer_size_index = 0; buffer_size_index < NUM_BUFFER_SIZES; buffer_size_index++)
     {
         buffer_size = (1 << (buffer_size_index + MIN_LOG2N_BUFFER_SIZE));
@@ -66,7 +68,9 @@ Int main (void)
         test_duration = (double) (stop_time - start_time) / (double) timer_freq.lo;
         printf ("With buffer size of %u wrote %.1f Mbytes over %.6f seconds, or %.1f Mbytes/sec\n",
                 buffer_size, total_mbytes, test_duration, total_mbytes / test_duration);
+        total_duration += test_duration;
     }
+    printf ("Total test duration = %.6f seconds\n", total_duration);
 
     BIOS_start();    /* does not return */
     return(0);
