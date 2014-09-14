@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule configRelations="2" moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.C6000.Debug.1333943778">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.C6000.Debug.1333943778" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.ti.ccstudio.errorparser.CoffErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.rtsc.xdctools.parsers.ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" errorParsers="org.eclipse.rtsc.xdctools.parsers.ErrorParser;com.ti.ccstudio.errorparser.CoffErrorParser;com.ti.ccstudio.errorparser.LinkErrorParser;com.ti.ccstudio.errorparser.AsmErrorParser" id="com.ti.ccstudio.buildDefinitions.C6000.Debug.1333943778" name="Debug" parent="com.ti.ccstudio.buildDefinitions.C6000.Debug" postbuildStep="" prebuildStep="">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.C6000.Debug.1333943778." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.DebugToolchain.775793370" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.linkerDebug.1432875312">
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1884890616" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C66XX.TMS320C6678"/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=ELF"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=5.5.0"/>
+								<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=libc.a"/>
+								<listOptionValue builtIn="false" value="RTSC_MBS_VERSION=2.2.0"/>
+								<listOptionValue builtIn="false" value="XDC_VERSION=3.30.3.47_core"/>
+								<listOptionValue builtIn="false" value="RTSC_PRODUCTS=com.ti.rtsc.TIRTOSc6000:2.0.1.23;"/>
+								<listOptionValue builtIn="false" value="INACTIVE_REPOS=${TARGET_CONTENT_BASE};"/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=rtscApplication:executable"/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.2135812073" name="Compiler version" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="7.4.10" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.targetPlatformDebug.506641279" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.targetPlatformDebug"/>
+							<builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.builderDebug.1516319546" keepEnvironmentInBuildfile="false" name="GNU Make" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.builderDebug"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.compilerDebug.620210525" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.compilerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.SILICON_VERSION.193228185" name="Target processor version (--silicon_version, -mv)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.SILICON_VERSION" value="6600" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.ABI.83557286" name="Application binary interface (coffabi, eabi) [See 'General' page to edit] (--abi)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.ABI.eabi" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DEBUGGING_MODEL.1802212852" name="Debugging model" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DEBUGGING_MODEL" value="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DEBUGGING_MODEL.SYMDEBUG__DWARF" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.INCLUDE_PATH.542672202" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DISPLAY_ERROR_NUMBER.578413147" name="Emit diagnostic identifier numbers (--display_error_number, -pden)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DIAG_WARNING.1724850025" name="Treat diagnostic &lt;id&gt; as warning (--diag_warning, -pdsw)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DIAG_WARNING" valueType="stringList">
+									<listOptionValue builtIn="false" value="225"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DIAG_WRAP.84971022" name="Wrap diagnostic messages (--diag_wrap)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DIAG_WRAP" value="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DIAG_WRAP.off" valueType="enumerated"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__C_SRCS.1911489660" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__CPP_SRCS.2043365191" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__ASM_SRCS.61542204" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__ASM2_SRCS.1247306368" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.linkerDebug.1432875312" name="C6000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.linkerDebug">
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.OUTPUT_FILE.1851515357" name="Specify output file name (--output_file, -o)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.OUTPUT_FILE" value="&quot;${ProjName}.out&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.MAP_FILE.2102852236" name="Input and output sections listed into &lt;file&gt; (--map_file, -m)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.MAP_FILE" value="&quot;${ProjName}.map&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.SEARCH_PATH.1410598292" name="Add &lt;dir&gt; to library search path (--search_path, -i)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.SEARCH_PATH" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.DISPLAY_ERROR_NUMBER.788404529" name="Emit diagnostic identifier numbers (--display_error_number)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.DIAG_WRAP.1601744298" name="Wrap diagnostic messages (--diag_wrap)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.DIAG_WRAP" value="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.DIAG_WRAP.off" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.XML_LINK_INFO.1337685882" name="Detailed link information data-base into &lt;file&gt; (--xml_link_info, -xml_link_info)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.XML_LINK_INFO" value="&quot;${ProjName}_linkInfo.xml&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.LIBRARY.2133455340" name="Include library file or command file as input (--library, -l)" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.LIBRARY" valueType="libs">
+									<listOptionValue builtIn="false" value="&quot;libc.a&quot;"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__CMD_SRCS.1491617690" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__CMD_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__CMD2_SRCS.1464091937" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__CMD2_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__GEN_CMDS.1658760770" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__GEN_CMDS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.4.hex.546732533" name="C6000 Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.hex"/>
+							<tool id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.830123114" name="XDCtools" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool">
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.XDC_PATH.919658900" name="Package repositories (--xdcpath)" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.XDC_PATH" valueType="stringList">
+									<listOptionValue builtIn="false" value="${COM_TI_RTSC_TIRTOSC6000_INSTALL_DIR}/packages"/>
+									<listOptionValue builtIn="false" value="${COM_TI_RTSC_TIRTOSC6000_INSTALL_DIR}/products/bios_6_40_01_15/packages"/>
+									<listOptionValue builtIn="false" value="${COM_TI_RTSC_TIRTOSC6000_INSTALL_DIR}/products/ipc_3_10_01_11/packages"/>
+									<listOptionValue builtIn="false" value="${COM_TI_RTSC_TIRTOSC6000_INSTALL_DIR}/products/ndk_2_23_01_01/packages"/>
+									<listOptionValue builtIn="false" value="${COM_TI_RTSC_TIRTOSC6000_INSTALL_DIR}/products/uia_2_00_00_28/packages"/>
+									<listOptionValue builtIn="false" value="${workspace_loc}"/>
+									<listOptionValue builtIn="false" value="${TARGET_CONTENT_BASE}"/>
+								</option>
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.TARGET.1185290475" name="Target (-t)" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.TARGET" value="ti.targets.elf.C66" valueType="string"/>
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.PLATFORM.1142656639" name="Platform (-p)" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.PLATFORM" value="evm6678_1G_DDR3" valueType="string"/>
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.PLATFORM_RAW.700976586" name="Platform (-p)" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.PLATFORM_RAW" value="evm6678_1G_DDR3" valueType="string"/>
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.BUILD_PROFILE.268830707" name="Build-profile (-r)" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.BUILD_PROFILE" value="release" valueType="string"/>
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.CODEGEN_TOOL_DIR.1779904342" name="Compiler tools directory (-c)" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.CODEGEN_TOOL_DIR" value="&quot;${CG_TOOL_ROOT}&quot;" valueType="string"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.ti.ccstudio.buildDefinitions.C6000.Release.965809313">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.ti.ccstudio.buildDefinitions.C6000.Release.965809313" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.ti.ccstudio.binaryparser.CoffParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.ti.ccstudio.errorparser.CoffErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.LinkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.ti.ccstudio.errorparser.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.rtsc.xdctools.parsers.ErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" errorParsers="org.eclipse.rtsc.xdctools.parsers.ErrorParser;com.ti.ccstudio.errorparser.CoffErrorParser;com.ti.ccstudio.errorparser.LinkErrorParser;com.ti.ccstudio.errorparser.AsmErrorParser" id="com.ti.ccstudio.buildDefinitions.C6000.Release.965809313" name="Release" parent="com.ti.ccstudio.buildDefinitions.C6000.Release" postbuildStep="" prebuildStep="">
+					<folderInfo id="com.ti.ccstudio.buildDefinitions.C6000.Release.965809313." name="/" resourcePath="">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.ReleaseToolchain.1867205104" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.linkerRelease.1602902200">
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1009907320" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C66XX.TMS320C6678"/>
+								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+								<listOptionValue builtIn="false" value="OUTPUT_FORMAT=ELF"/>
+								<listOptionValue builtIn="false" value="CCS_MBS_VERSION=5.5.0"/>
+								<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+								<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=libc.a"/>
+								<listOptionValue builtIn="false" value="RTSC_MBS_VERSION=2.2.0"/>
+								<listOptionValue builtIn="false" value="XDC_VERSION=3.30.3.47_core"/>
+								<listOptionValue builtIn="false" value="RTSC_PRODUCTS=com.ti.rtsc.TIRTOSc6000:2.0.1.23;"/>
+								<listOptionValue builtIn="false" value="OUTPUT_TYPE=rtscApplication:executable"/>
+							</option>
+							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.552387061" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="7.4.10" valueType="string"/>
+							<targetPlatform id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.targetPlatformRelease.78479165" name="Platform" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.targetPlatformRelease"/>
+							<builder buildPath="${BuildDirectory}" id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.builderRelease.1304833416" name="GNU Make.Release" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.builderRelease"/>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.compilerRelease.1915028389" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.compilerRelease">
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.SILICON_VERSION.2073456599" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.SILICON_VERSION" value="6600" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DIAG_WARNING.1244440744" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DIAG_WARNING" valueType="stringList">
+									<listOptionValue builtIn="false" value="225"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DISPLAY_ERROR_NUMBER.584327023" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DIAG_WRAP.1357868075" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DIAG_WRAP" value="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.DIAG_WRAP.off" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.INCLUDE_PATH.330081084" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.INCLUDE_PATH" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.ABI.1325195643" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.C6000_7.4.compilerID.ABI.eabi" valueType="enumerated"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__C_SRCS.454522954" name="C Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__C_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__CPP_SRCS.347230983" name="C++ Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__CPP_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__ASM_SRCS.1431894409" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__ASM_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__ASM2_SRCS.793818568" name="Assembly Sources" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.compiler.inputType__ASM2_SRCS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.linkerRelease.1602902200" name="C6000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exe.linkerRelease">
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.OUTPUT_FILE.635846844" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.OUTPUT_FILE" value="&quot;${ProjName}.out&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.MAP_FILE.1834710851" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.MAP_FILE" value="&quot;${ProjName}.map&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.XML_LINK_INFO.999729617" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.XML_LINK_INFO" value="&quot;${ProjName}_linkInfo.xml&quot;" valueType="string"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.DISPLAY_ERROR_NUMBER.1998032172" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.DISPLAY_ERROR_NUMBER" value="true" valueType="boolean"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.DIAG_WRAP.920357283" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.DIAG_WRAP" value="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.DIAG_WRAP.off" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.SEARCH_PATH.1407603789" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.SEARCH_PATH" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+								</option>
+								<option id="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.LIBRARY.613704566" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.linkerID.LIBRARY" valueType="libs">
+									<listOptionValue builtIn="false" value="&quot;libc.a&quot;"/>
+								</option>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__CMD_SRCS.1890064450" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__CMD_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__CMD2_SRCS.1708663042" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__CMD2_SRCS"/>
+								<inputType id="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__GEN_CMDS.1781167008" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.exeLinker.inputType__GEN_CMDS"/>
+							</tool>
+							<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.4.hex.370624029" name="C6000 Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.4.hex"/>
+							<tool id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.293590137" name="XDCtools" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool">
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.CODEGEN_TOOL_DIR.714409542" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.CODEGEN_TOOL_DIR" value="&quot;${CG_TOOL_ROOT}&quot;" valueType="string"/>
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.TARGET.5730871" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.TARGET" value="ti.targets.elf.C66" valueType="string"/>
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.PLATFORM.659762050" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.PLATFORM" value="ti.platforms.evm6678" valueType="string"/>
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.PLATFORM_RAW.632838411" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.PLATFORM_RAW" value="ti.platforms.evm6678" valueType="string"/>
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.BUILD_PROFILE.81503391" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.BUILD_PROFILE" value="release" valueType="string"/>
+								<option id="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.XDC_PATH.1402216194" superClass="com.ti.rtsc.buildDefinitions.XDC_3.16.tool.XDC_PATH" valueType="stringList">
+									<listOptionValue builtIn="false" value="${COM_TI_RTSC_TIRTOSC6000_INSTALL_DIR}/packages"/>
+									<listOptionValue builtIn="false" value="${COM_TI_RTSC_TIRTOSC6000_INSTALL_DIR}/products/bios_6_40_01_15/packages"/>
+									<listOptionValue builtIn="false" value="${COM_TI_RTSC_TIRTOSC6000_INSTALL_DIR}/products/ipc_3_10_01_11/packages"/>
+									<listOptionValue builtIn="false" value="${COM_TI_RTSC_TIRTOSC6000_INSTALL_DIR}/products/ndk_2_23_01_01/packages"/>
+									<listOptionValue builtIn="false" value="${COM_TI_RTSC_TIRTOSC6000_INSTALL_DIR}/products/uia_2_00_00_28/packages"/>
+									<listOptionValue builtIn="false" value="${workspace_loc}"/>
+									<listOptionValue builtIn="false" value="${TARGET_CONTENT_BASE}"/>
+								</option>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="timer_sanity_check.com.ti.ccstudio.buildDefinitions.C6000.ProjectType.499789778" name="C6000" projectType="com.ti.ccstudio.buildDefinitions.C6000.ProjectType"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration"/>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.asmSource" language="com.ti.ccstudio.core.TIASMLanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.ti.ccstudio.core.TIGCCLanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.ti.ccstudio.core.TIGCCLanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxHeader" language="com.ti.ccstudio.core.TIGPPLanguage"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cxxSource" language="com.ti.ccstudio.core.TIGPPLanguage"/>
+		</project-mappings>
+	</storageModule>
+</cproject>

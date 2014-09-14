@@ -1,0 +1,13 @@
+The test was intended to run for 10 seconds. However, it is actually taking 100 seconds:
+
+[C66xx_0] [Sun Sep 14 18:51:25] Starting timer test
+[Sun Sep 14 18:53:05] Timer test complete
+
+
+[C66xx_0] [Sun Sep 14 19:02:24] Starting timer test
+[Sun Sep 14 19:04:04] Timer test complete
+
+
+[C66xx_0] [Sun Sep 14 19:05:35] Starting timer test
+[Sun Sep 14 19:07:15] Timer test complete
+
