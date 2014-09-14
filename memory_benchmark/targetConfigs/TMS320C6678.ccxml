@@ -10,6 +10,15 @@
             <instance XML_version="1.2" href="drivers/tixds560etbcs.xml" id="drivers" xml="tixds560etbcs.xml" xmlpath="drivers"/>
             <platform XML_version="1.2" id="platform_0">
                 <instance XML_version="1.2" desc="TMS320C6678" href="devices/C6678.xml" id="TMS320C6678" xml="C6678.xml" xmlpath="devices"/>
+            <device HW_revision="1" XML_version="1.2" description="C66x core" id="TMS320C6678" partnum="TMS320C6678">
+                    <router HW_revision="1.0" XML_version="1.2" description="ICEPick_D Router" id="IcePick_D_0" isa="ICEPICK_D">
+                        <subpath id="subpath_0">
+                            <cpu HW_revision="1.0" XML_version="1.2" description="C66xx CPU" id="C66xx_0" isa="TMS320c66xx">
+                                <property Type="filepathfield" Value="../../evmc6678l.gel" id="GEL File"/>
+                            </cpu>
+                        </subpath>
+                    </router>
+                </device>
             </platform>
         </connection>
     </configuration>

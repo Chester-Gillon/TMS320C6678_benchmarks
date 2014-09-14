@@ -1,24 +1,23 @@
 Example run results:
-[Sun Sep 14 20:14:24] Starting memory write test
-[Sun Sep 14 20:18:04] With buffer size of 1024 wrote 1.0 Mbytes over 0.000189 seconds, or 5163.8 Mbytes/sec
-[Sun Sep 14 20:18:04] With buffer size of 2048 wrote 2.0 Mbytes over 0.000349 seconds, or 5594.8 Mbytes/sec
-[Sun Sep 14 20:18:04] With buffer size of 4096 wrote 3.9 Mbytes over 0.000669 seconds, or 5837.4 Mbytes/sec
-[Sun Sep 14 20:18:04] With buffer size of 8192 wrote 7.8 Mbytes over 0.001309 seconds, or 5966.7 Mbytes/sec
-[Sun Sep 14 20:18:04] With buffer size of 16384 wrote 15.6 Mbytes over 0.002590 seconds, or 6033.5 Mbytes/sec
-[Sun Sep 14 20:18:04] With buffer size of 32768 wrote 31.3 Mbytes over 0.005150 seconds, or 6067.4 Mbytes/sec
-[Sun Sep 14 20:18:04] With buffer size of 65536 wrote 62.5 Mbytes over 0.010272 seconds, or 6084.6 Mbytes/sec
-[Sun Sep 14 20:18:04] With buffer size of 131072 wrote 125.0 Mbytes over 0.020515 seconds, or 6093.2 Mbytes/sec
-[Sun Sep 14 20:18:04] With buffer size of 262144 wrote 250.0 Mbytes over 0.041001 seconds, or 6097.5 Mbytes/sec
-[Sun Sep 14 20:18:04] With buffer size of 524288 wrote 500.0 Mbytes over 0.082153 seconds, or 6086.2 Mbytes/sec
-[Sun Sep 14 20:18:04] With buffer size of 1048576 wrote 1000.0 Mbytes over 0.345366 seconds, or 2895.5 Mbytes/sec
-[Sun Sep 14 20:18:05] With buffer size of 2097152 wrote 2000.0 Mbytes over 0.690848 seconds, or 2895.0 Mbytes/sec
-[Sun Sep 14 20:18:05] With buffer size of 4194304 wrote 4000.0 Mbytes over 1.381634 seconds, or 2895.1 Mbytes/sec
-[Sun Sep 14 20:18:05] With buffer size of 8388608 wrote 8000.0 Mbytes over 2.763205 seconds, or 2895.2 Mbytes/sec
-[Sun Sep 14 20:18:05] With buffer size of 16777216 wrote 16000.0 Mbytes over 5.526332 seconds, or 2895.2 Mbytes/sec
-[Sun Sep 14 20:18:05] With buffer size of 33554432 wrote 32000.0 Mbytes over 11.052646 seconds, or 2895.2 Mbytes/sec
-[Sun Sep 14 20:18:05] Total test duration = 21.924229 seconds
+[C66xx_0] [Sun Sep 14 21:18:29] Starting memory write test
+[Sun Sep 14 21:19:37] With buffer size of 1024 wrote 1.0 Mbytes over 0.000189 seconds, or 5158.9 Mbytes/sec
+[Sun Sep 14 21:19:37] With buffer size of 2048 wrote 2.0 Mbytes over 0.000349 seconds, or 5592.2 Mbytes/sec
+[Sun Sep 14 21:19:37] With buffer size of 4096 wrote 3.9 Mbytes over 0.000670 seconds, or 5834.3 Mbytes/sec
+[Sun Sep 14 21:19:37] With buffer size of 8192 wrote 7.8 Mbytes over 0.001310 seconds, or 5963.4 Mbytes/sec
+[Sun Sep 14 21:19:37] With buffer size of 16384 wrote 15.6 Mbytes over 0.002591 seconds, or 6030.1 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 32768 wrote 31.3 Mbytes over 0.005153 seconds, or 6064.0 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 65536 wrote 62.5 Mbytes over 0.010278 seconds, or 6081.1 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 131072 wrote 125.0 Mbytes over 0.020527 seconds, or 6089.7 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 262144 wrote 250.0 Mbytes over 0.041025 seconds, or 6093.9 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 524288 wrote 500.0 Mbytes over 0.082449 seconds, or 6064.4 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 1048576 wrote 1000.0 Mbytes over 1.064632 seconds, or 939.3 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 2097152 wrote 2000.0 Mbytes over 2.130226 seconds, or 938.9 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 4194304 wrote 4000.0 Mbytes over 4.259997 seconds, or 939.0 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 8388608 wrote 8000.0 Mbytes over 8.517326 seconds, or 939.3 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 16777216 wrote 16000.0 Mbytes over 17.033208 seconds, or 939.3 Mbytes/sec
+[Sun Sep 14 21:19:38] With buffer size of 33554432 wrote 32000.0 Mbytes over 34.064198 seconds, or 939.4 Mbytes/sec
+[Sun Sep 14 21:19:38] Total test duration = 67.234129 seconds
 
 There is a drop in the performance when exceed the L2 cache size of 512K.
 No obvious difference between when the data size fits in the L1 .vs. L2; need to investigate if the memset() achieves the optimum write speed.
 
-The test duration as reported by the target is 10 times less than the actual elapsed time, i.e. is the target running at 100MHz instead of the expected 1GHz?
